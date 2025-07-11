@@ -27,7 +27,7 @@ async fn main() {
     let provider = ProviderBuilder::default()
         .with_recommended_fillers()
         .wallet(signer)
-        .connect("")
+        .connect("https://eth.llamarpc.com")
         .await
         .unwrap();
 
