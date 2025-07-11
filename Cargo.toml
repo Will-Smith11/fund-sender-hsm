@@ -1,0 +1,10 @@
+[package]
+name = "fund-sender-hsm"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+alloy = "=1.0.13"
+tokio = { version = "1.46.1", features = ["full"] }
+angstrom-types = { git = "https://github.com/SorellaLabs/angstrom" }
+hsm-signer = { git = "https://github.com/SorellaLabs/hsm-signer.git" }
